@@ -1,0 +1,730 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="app.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+</head>
+
+<body class="antialiased font-sans bg-gray-100 ">
+  <div class="min-h-full">
+    <header class="bg-white shadow  dark:bg-black">
+      <div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex px-2 lg:px-0">
+            <div class="flex-shrink-0 flex items-center">
+              <a href="#">
+                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg"
+                  alt="Workflow">
+              </a>
+            </div>
+            <nav aria-label="Global" class="hidden lg:ml-6 lg:flex lg:items-center lg:space-x-4">
+              <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+                Home
+              </a>
+
+              <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+                Regions
+              </a>
+
+              <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+                Admin
+              </a>
+
+              <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+                Support
+              </a>
+            </nav>
+          </div>
+          <div class="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
+            <div class="max-w-lg w-full lg:max-w-xs">
+              <label for="search" class="sr-only">Search</label>
+              <div class="relative">
+                <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                  <!-- Heroicon name: solid/search -->
+                  <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+                <input id="search" name="search"
+                  class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white shadow-sm placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-600 focus:border-blue-600 sm:text-sm"
+                  placeholder="Search" type="search">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="hidden lg:ml-4 lg:flex lg:items-center">
+            <span class="px-2 py-2 text-gray-900 text-sm font-medium">
+              Hi, <a href="#" class="text-gray-900 text-sm font-medium">
+                Andrew
+              </a>
+            </span>
+            <a href="#" class="px-2 py-2 text-gray-900 text-sm font-medium">
+              CMQCC Accounts
+            </a>
+            <a href="#" class="px-2 py-2 text-gray-900 text-sm font-medium">
+              Sign Out
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <div class="border-t border-gray-200 py-3">
+          <nav class="flex" aria-label="Breadcrumb">
+            <div class="hidden sm:block">
+              <ol role="list" class="flex items-center space-x-4">
+                <li>
+                  <div>
+                    <a href="#" class="text-gray-400 hover:text-gray-500">
+                      <!-- Heroicon name: solid/home -->
+                      <svg class="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                        fill="currentColor" aria-hidden="true">
+                        <path
+                          d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                      </svg>
+                      <span class="sr-only">Home</span>
+                    </a>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="flex items-center">
+                    <svg class="flex-shrink-0 h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                    </svg>
+                    <a href="#" class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700">Demo Hospital</a>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="py-2 ">
+      <!-- Page header -->
+      <div
+        class="max-w-3xl mx-auto px-4 sm:px-6 md:flex md:items-center md:justify-between md:space-x-5 lg:max-w-7xl lg:px-8">
+        <div class="flex items-center space-x-5">
+          <div class="-ml-2 -mt-2 flex flex-wrap items-">
+            <h1 class="text-2xl font-bold text-gray-900">Demo Hospital</h1>
+            <p class="ml-2 mt-1 mx-auto text-base text-gray-500">Aug - Oct 2020</p>
+          </div>
+        </div>
+        <div
+          class="my-2 flex flex-col-reverse justify-stretch space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-x-reverse sm:space-y-0 sm:space-x-3 ">
+          <button type="button"
+            class="inline-flex items-center justify-center px-4 my-1 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500">
+            Data Status
+          </button>
+        </div>
+      </div>
+
+      <div class="max-w-3xl mx-auto px-4 lg:max-w-7xl">
+        <!-- Main 12 column grid -->
+        <div class="grid grid-cols-1 gap-3 items-start grid-cols-2 gap-8 px-2">
+          <!-- Left column -->
+          <div class="grid grid-cols-1 gap-4 col-span-1">
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      Favorite Measures
+                    </h3>
+                    <p class="ml-2 mt-1 text-sm text-gray-500">
+                        <a href="#"
+                        class="text-green-700 font-medium">learn how</a> to add measures to your hospital's home page</p>
+                  </div>
+                </div>
+                <ul role="list" class="ml-4">
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Early Elective Delivery (PC-01)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300 underline decoration-dotted decoration-gray-300">N/A</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesarean Birth: NTSV - Nullip Term Singleton
+                            Vertex (PC-02: Current)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">35.0%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Unexpected Newborn Complications: Severe
+                            (PC-06.1)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">4.3%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="pt-4 pl-10 text-sm">
+                  <a href="#" class="text-green-700 hover:text-green-900">View all 4 Favorites: Table <span
+                      aria-hidden="true">&rarr;</span></a>
+                </div>
+                <div class="pt-2 pl-10 text-sm">
+                  <a href="#" class="text-green-700 hover:text-green-900">View all 4 Favorites: Graph <span
+                      aria-hidden="true">&rarr;</span></a>
+                </div>
+
+              </div>
+            </section>
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                          d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                      </svg>
+                      Clinical Quality Measures
+                    </h3>
+                    <p class="ml-2 mt-1 text-sm text-gray-500">view all 96 by <a href="#"
+                        class="text-green-700 font-medium">name</a>, <a href="#"
+                        class="text-green-700 font-medium">reporting org</a>, or <a href="#"
+                        class="text-green-700 font-medium">topic</a></p>
+                  </div>
+                </div>
+                <ul role="list" class="ml-4">
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Early Elective Delivery (PC-01)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300 underline decoration-dotted decoration-gray-300">N/A</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesarean Birth: NTSV - Nullip Term Singleton
+                            Vertex (PC-02: Current)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">35.0%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Unexpected Newborn Complications: Severe
+                            (PC-06.1)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">4.3%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="py-4 pl-10 text-sm">
+                  <a href="#" class="text-green-700 hover:text-green-900">Compare two measures <span
+                      aria-hidden="true">&rarr;</span></a>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      </svg>
+                      Data Quality Measures
+                    </h3>
+                    <p class="ml-2 mt-1 text-sm text-gray-500">view all 29 by <a href="#"
+                        class="text-green-700 font-medium">name</a> or <a href="#"
+                        class="text-green-700 font-medium">topic</a></p>
+                  </div>
+                </div>
+
+                <ul role="list" class="ml-4">
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Early Elective Delivery (PC-01)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">N/A</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesarean Birth: NTSV - Nullip Term Singleton
+                            Vertex (PC-02: Current)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">35.0%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Unexpected Newborn Complications: Severe
+                            (PC-06.1)</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">4.3%</span>
+                    </div>
+                  </li>
+
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesareans after Labor Induction: NTSV Cases</p>
+                        </a>
+                      </div>
+                      <span class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 underline decoration-dotted decoration-gray-300">31.6%</span>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="pt-4 pl-10 text-sm">
+                  <a href="#" class="text-green-700 hover:text-green-900"><span class="underline decoration-dotted decoration-gray-300">MDC Data Sources</span> <span
+                      aria-hidden="true">&rarr;</span></a>
+                </div>
+                <div class="pt-2 pl-10 text-sm">
+                  <a href="#" class="text-green-700 hover:text-green-900"><span class="underline decoration-dotted decoration-gray-300">Data Completeness Report</span> <span
+                      aria-hidden="true">&rarr;</span></a>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- Right column -->
+          <div class="grid grid-cols-1 col-span-1 gap-4">
+            <div class="rounded-md bg-yellow-50 p-4">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                    fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </div>
+                <div class="ml-3">
+                  <h3 class="text-sm font-medium text-yellow-800">
+                    Winter Holiday Schedule
+                  </h3>
+                  <div class="mt-2 text-sm text-yellow-700">
+                    <p>
+                      The Maternal Data Center Support Desk will be closed:</p>
+                    <ul class="list-disc ml-6 my-3">
+                      <li>12/23 through 12/26</li>
+                      <li>12/30 through 1/2</li>
+                    </ul>
+                    </p>
+                    <p>If you have a question around password resets or inviting new users, check out these User Guides:
+                    </p>
+
+                    <ul class="list-disc ml-6 my-3">
+                      <li><a href="#" class="text-green-700">Password Resets</a></li>
+                      <li><a href="#" class="text-green-700">MDC User Management (Adding & Deleting Users)</a></li>
+                    </ul>
+                    <p>We will resume normal business hours on Monday January 3rd. Happy Holidays! </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <dl class="grid grid-cols-2 rounded-lg bg-white overflow-hidden shadow divide-x divide-gray-200 ">
+              <div class="px-4 py-3">
+                <dt class="text-sm font-normal text-gray-900">
+                  <a href="#" class="text-green-700">October 2021 Live Births</a>
+                </dt>
+                <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                  <div class="flex items-baseline text-xl font-semibold text-orange-700">
+                    895
+                    <span class="ml-2 text-sm font-medium text-gray-500">
+                      from 768
+                    </span>
+                  </div>
+
+                  <div
+                    class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800 md:mt-2 lg:mt-0">
+                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd"
+                        d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z"
+                        clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">
+                      Increased by
+                    </span>
+                    12.3%
+                  </div>
+                </dd>
+              </div>
+
+              <div class="px-4 py-3">
+                <dt class="text-sm font-normal text-gray-900">
+                  <a href="#" class="text-green-700">Year-to-Date Live Births</a>
+                </dt>
+                <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                  <div class="flex items-baseline text-xl font-semibold text-orange-700">
+                    12,123
+                    <span class="ml-2 text-xs font-medium text-gray-500">
+                      from 11,123
+                    </span>
+                  </div>
+
+                  <div
+                    class="inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium bg-green-100 text-green-800 md:mt-2 lg:mt-0">
+                    <svg class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500"
+                      xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd"
+                        d="M5.293 9.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 7.414V15a1 1 0 11-2 0V7.414L6.707 9.707a1 1 0 01-1.414 0z"
+                        clip-rule="evenodd" />
+                    </svg>
+                    <span class="sr-only">
+                      Increased by
+                    </span>
+                    2.0%
+                  </div>
+                </dd>
+              </div>
+            </dl>
+
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      Birth Equity
+                    </h3>
+                    <p class="ml-2 mt-1 text-sm text-gray-500">
+                      learn about the
+                      <a href="#" class="text-green-700 font-medium">CMQCC Birth Equity Collaborative</a>
+                    </p>
+                  </div>
+                </div>
+
+                <ul role="list" class="mx-4">
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesarean Birth: NTSV - Nullip Term Singleton Vertex</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Severe Maternal Morbidity (SMM)</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Race-Ethnicity Distributions</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">More Measures</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <button type="button"
+                  class="mt-2 ml-10 inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Birth Equity PDF
+                </button>
+              </div>
+            </section>
+
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      Patient Safety Watch
+                    </h3>
+                  </div>
+                </div>
+
+                <ul role="list" class="mx-4">
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Hemorrhage Patient Safety</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Joint Commission Maternal Safety Standards Tool: Hemorrhage	</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Preeclampsia Patient Safety</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Joint Commission Maternal Safety Standards Tool: HTN/Preeclampsia</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="ml-2 mt-1relative bg-white py-1 px-4 text-lg leading-6 font-normal text-gray-900 hover:bg-gray-50 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-700">
+                    <div class="flex justify-between space-x-3">
+                      <div class="min-w-0 flex-1">
+                        <a href="#" class="block focus:outline-none">
+                          <p class="text-sm text-green-700">Cesarean Birth QI</p>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+              </div>
+            </section>
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      Case Lookup by MRN/Account Number
+                    </h3>
+                  </div>
+                </div>
+
+                <div class="mx-4">
+                  <div class="mt-1 flex rounded-md shadow-sm">
+                    <div class="relative flex items-stretch flex-grow focus-within:z-10">
+                      <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                        <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                          fill="currentColor" aria-hidden="true">
+                          <path
+                            d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                        </svg>
+                      </div>
+                      <input type="email" name="email" id="email"
+                        class="focus:ring-indigo-500 focus:border-indigo-500 block w-full rounded-none rounded-l-md pl-10 sm:text-sm border-gray-300"
+                        placeholder="1234567">
+                    </div>
+                    <button type="button"
+                      class="-ml-px relative inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500">
+                      <span>Search by Identifier</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div class="rounded-lg bg-white overflow-hidden shadow py-4">
+                <div class="pb-2">
+                  <div class="-ml-2 -mt-2 flex flex-wrap items-baseline border-b pb-2 px-4">
+                    <h3 class="ml-2 mt-1 text-lg leading-6 font-normal text-gray-900">
+                      Delivery Logbook
+                    </h3>
+                  </div>
+                </div>
+
+                <div class="mx-4">
+                  <div class="mt-1 flex relative rounded-md shadow-sm ">
+                    <div class="absolute inset-y-0 left-0 flex items-stretch flex-grow w-full">
+                      <select id="country" name="country" autocomplete="country"
+                        class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-3 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+                        <option>Delivery Date</option>
+                        <option>MRN</option>
+                      </select>
+                    </div>
+                    <input type="text"
+                      class="focus:ring-indigo-500 focus:border-indigo-500 block pl-48 sm:text-sm border-gray-300 rounded-l-md"
+                      placeholder="MM/DD/YYYY">
+                    <button type="button"
+                      class="-ml-px relative inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500">
+                      <span>Search Mothers</span>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- <div class="mx-4">
+                  <div class="mt-1 flex relative rounded-md shadow-sm ">
+                    <div class="absolute inset-y-0 left-0 flex items-stretch flex-grow">
+                      <select id="country" name="country" autocomplete="country"
+                        class="focus:ring-indigo-500 focus:border-indigo-500 h-full py-0 pl-3 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+                        <option>Date of Birth</option>
+                        <option>MRN</option>
+                      </select>
+                    </div>
+                    <input type="text"
+                      class="focus:ring-indigo-500 focus:border-indigo-500 w-full inline-block pl-48 sm:text-sm border-gray-300 rounded-l-md"
+                      placeholder="MM/DD/YYYY">
+                    <button type="button"
+                      class="-ml-px relative inline-flex items-center space-x-2 px-4 py-2 border border-gray-300 text-sm font-medium rounded-r-md text-gray-700 bg-gray-50 hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500">
+                      <span>Search Newborns</span>
+                    </button>
+                  </div> -->
+                </div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

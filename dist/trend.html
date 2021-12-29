@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="app.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+</head>
+
+<body class="antialiased font-sans bg-gray-100 min-h-full">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="flex justify-between h-16">
+        <div class="flex px-0">
+          <div class="flex-shrink-0 flex items-center">
+            <a href="#">
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-blue-600.svg" alt="Workflow">
+            </a>
+          </div>
+          <nav aria-label="Global" class="hidden lg:ml-6 lg:flex lg:items-center lg:space-x-4">
+            <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+              Home
+            </a>
+
+            <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+              Regions
+            </a>
+
+            <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+              Admin
+            </a>
+
+            <a href="#" class="px-3 py-2 text-gray-900 font-medium">
+              Support
+            </a>
+          </nav>
+        </div>
+        <div class="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
+          <div class="max-w-lg w-full lg:max-w-xs">
+            <label for="search" class="sr-only">Search</label>
+            <div class="relative">
+              <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                <!-- Heroicon name: solid/search -->
+                <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                  fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd" />
+                </svg>
+              </div>
+              <input id="search" name="search"
+                class="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white shadow-sm placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-600 focus:border-blue-600 sm:text-sm"
+                placeholder="Search" type="search">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="hidden lg:ml-4 lg:flex lg:items-center">
+          <span class="px-2 py-2 text-gray-900 text-sm font-medium">
+            Hi, <a href="#" class="text-gray-900 text-sm font-medium">
+              Andrew
+            </a>
+          </span>
+          <a href="#" class="px-2 py-2 text-gray-900 text-sm font-medium">
+            CMQCC Accounts
+          </a>
+          <a href="#" class="px-2 py-2 text-gray-900 text-sm font-medium">
+            Sign Out
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="border-t border-gray-200 py-3">
+        <nav class="flex" aria-label="Breadcrumb">
+          <div class="hidden sm:block">
+            <ol role="list" class="flex items-center space-x-4">
+              <li>
+                <div>
+                  <a href="#" class="text-gray-400 hover:text-gray-500">
+                    <!-- Heroicon name: solid/home -->
+                    <svg class="flex-shrink-0 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                      fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                    </svg>
+                    <span class="sr-only">Home</span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="flex items-center">
+                  <svg class="flex-shrink-0 h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                  </svg>
+                  <a href="#" class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700">Demo Hospital</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="flex items-center">
+                  <svg class="flex-shrink-0 h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                  </svg>
+                  <a href="#" class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700">Clinical Quality
+                    Measures</a>
+                </div>
+              </li>
+
+              <li>
+                <div class="flex items-center">
+                  <svg class="flex-shrink-0 h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                  </svg>
+                  <select
+                    class="ml-2 text-sm font-medium text-gray-500 border-0 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md">
+                    <option>United States</option>
+                    <option selected>CCHD Pulse Oximetry: Pass Rate</option>
+                    <option>Mexico</option>
+                  </select>
+                </div>
+              </li>
+
+              <li>
+                <div class="flex items-center">
+                  <svg class="flex-shrink-0 h-5 w-5 text-gray-300" xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                    <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                  </svg>
+                  <a href="#" class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700"
+                    aria-current="page">Hospital Trend</a>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl px-6 my-6 mx-auto pb-10">
+    <!-- Page header -->
+    <div class="mx-auto flex items-center md:justify-between">
+      <div class="flex items-center space-x-5">
+        <div>
+          <h1 class="text-2xl font-bold text-gray-900">Trend: CCHD-Pulse Oximetry: Pass Rate</h1>
+        </div>
+      </div>
+      <div
+        class="mt-6 flex flex-col-reverse justify-stretch space-y-4 space-y-reverse sm:flex-row-reverse sm:justify-end sm:space-x-reverse sm:space-y-0 sm:space-x-3 md:mt-0 md:flex-row md:space-x-3">
+        <button type="button"
+          class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500">
+          Graph and Data Downloads
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-12 gap-x-5">
+      <aside class="col-span-2">
+        <nav class="flex-1 px-1 py-4 space-y-8" aria-label="Sidebar">
+          <div class="space-y-1">
+            <h3 class="px-3 text-xs font-semibold text-gray-500 uppercase tracking-wider" id="projects-headline">
+              Measure
+            </h3>
+            <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
+            <a href="#"
+              class="bg-white text-orange-800 group flex items-center ml-5 mr-2 px-2 py-2 text-sm font-medium rounded-md">
+              Hospital Trend
+            </a>
+
+            <a href="#"
+              class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+              Definition/Algorithm
+            </a>
+
+            <a href="#"
+              class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+              Chart Review
+            </a>
+
+            <a href="#"
+              class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+              Result History
+            </a>
+          </div>
+
+          <div class="space-y-1">
+            <h3 class="px-3 text-xs font-semibold text-gray-500 uppercase tracking-wider" id="projects-headline">
+              Comparisons
+            </h3>
+            <div class="space-y-1" role="group" aria-labelledby="projects-headline">
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                Peer
+              </a>
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                System
+              </a>
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                NICU Level
+              </a>
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                All Hospitals
+              </a>
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                By Race/Ethnicity
+              </a>
+              <a href="#"
+                class="text-gray-600 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-10 mr-2 py-2 text-sm font-medium rounded-md">
+                See More
+              </a>
+              <a href="#"
+                class="text-green-700 hover:bg-gray-50 hover:text-gray-900 group flex items-center px-2 ml-5 mr-2 py-2 text-sm font-medium rounded-md">
+                Compare Two Measures
+              </a>
+            </div>
+          </div>
+        </nav>
+      </aside>
+
+      <div class="col-span-10 bg-white my-4 px-0 py-0 shadow  ">
+
+        <!-- <nav class="flex shadow dividex-x divide-gray-200" aria-label="Tabs">
+          <a href="#" class="text-gray-900 bg-gray-50  py-4 px-4 text-sm font-medium text-center hover:bg-gray-50 ml-6 border-l-2 border-r-2 border-gray-200">
+            <span>Screening Rate</span>
+          </a>
+    
+          <a href="#" class="text-gray-500 hover:text-gray-700   min-w-0 overflow-hidden bg-white py-4 px-4 text-sm font-medium text-center hover:bg-gray-50  border-r-2 border-gray-200">
+            <span>Pass Rate</span>
+          </a>
+        </nav> -->
+
+        <!-- <div class="border-b border-gray-200 bg-gray-25">
+          <nav class="flex space-x-8 px-4" aria-label="Tabs">
+            <a href="#" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-3 border-b-2 font-medium">
+              Screening Rate
+            </a>
+
+            <a href="#" class="border-orange-700 text-orange-800 whitespace-nowrap py-3 px-2 border-b-2 font-medium" aria-current="page">
+              Pass Rate
+            </a>
+          </nav>
+        </div> -->
+        <nav class="flex space-x-4 py-3 pl-4 border-b border-gray-200 bg-gray-25" aria-label="Tabs">
+          <a href="#" class="text-gray-00 hover:text-gray-700 px-3 py-2 font-medium text-sm rounded-md">
+            Screening Rate
+          </a>
+
+          <a href="#" class="bg-gray-100 text-gray-800 px-3 py-2 font-medium text-sm rounded-md" aria-current="page">
+            Pass Rate
+          </a>
+        </nav>
+
+        <!-- <div class="border-b border-gray-200 bg-gray-25">
+          <nav class="flex space-x-8 px-4" aria-label="Tabs">
+            <a href="#" class="border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-3 px-2 border-b-2 text-sm font-medium">
+              Screening Rate
+            </a>
+
+            <a href="#" class="border-orange-700 text-orange-800 whitespace-nowrap py-3 px-2 border-b-2 text-sm font-medium" aria-current="page">
+              Pass Rate
+            </a>
+          </nav>
+        </div> -->
+
+
+        <div class="py-6 px-4 sm:p-6 lg:pb-8">
+
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+            <div class="flex">
+              <div class="flex-shrink-0">
+                <!-- Heroicon name: solid/exclamation -->
+                <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                  fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd"
+                    d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+                    clip-rule="evenodd" />
+                </svg>
+              </div>
+              <div class="ml-3">
+                <p class="text-sm text-yellow-700">
+                  If you are a California hospital and you'd like CMQCC to transfer your annual results to
+                  CCS,
+                  please:
+                  <br>1) complete the <a href="#"
+                    class="font-medium text-green-700 hover:text-yellow-600">Data Release
+                    Authorization</a>, and
+                  <br>2) after submitting all CCHD newborn-specific data for the calendar year, "approve"
+                  the
+                  final results.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </main>
+</body>
+
+</html>
